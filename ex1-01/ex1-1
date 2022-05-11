@@ -1,0 +1,19 @@
+Script started on Mon May  9 17:41:32 2022
+[1m[7m%[27m[1m[0m                                                                               
+ 
+]2;kolya_ya@Mac-mini-Ya:~/DevOpsWithDocker2022]1;..ithDocker2022
+[0m[27m[24m[J[38;5;237m--------------------------------------------------------------------------------[00m
+[38;5;032m~/DevOpsWithDocker2022 [38;5;105m»[00m [K[33C [38;5;237mkolya_ya@Mac-mini-Ya[00m[54D[?1h=[?2004hscript ex1-1[12Dcd DevOpsWithDocker2022[23Dscript ex1-1           [11D[12Ddocker ps -a[?1l>[?2004l
+
+]2;docker ps -a]1;dockerCONTAINER ID   IMAGE     COMMAND                  CREATED         STATUS                     PORTS     NAMES
+81096d64c7f3   nginx     "/docker-entrypoint.…"   5 minutes ago   Exited (0) 4 minutes ago             quizzical_gauss
+1633fc204aa9   nginx     "/docker-entrypoint.…"   5 minutes ago   Exited (0) 4 minutes ago             sweet_black
+480fc1fcae20   nginx     "/docker-entrypoint.…"   6 minutes ago   Up 6 minutes               80/tcp    wonderful_ride
+[1m[7m%[27m[1m[0m                                                                               
+ 
+]2;kolya_ya@Mac-mini-Ya:~/DevOpsWithDocker2022]1;..ithDocker2022
+[0m[27m[24m[J[38;5;237m--------------------------------------------------------------------------------[00m
+[38;5;032m~/DevOpsWithDocker2022 [38;5;105m»[00m [K[33C [38;5;237mkolya_ya@Mac-mini-Ya[00m[54D[?1h=[?2004h[?2004l
+
+
+Script done on Mon May  9 17:41:45 2022

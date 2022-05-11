@@ -1,0 +1,11 @@
+Script started on Tue May 10 17:06:34 2022
+[1m[7m%[27m[1m[0m                                                                                                                                                            ]2;kolya_ya@Mac-mini-Ya:~/DevOpsWithDocker2022]1;..ithDocker2022[0m[27m[24m[J[38;5;237m------------------------------------------------------------------------------------------------------------------------------------------------------------[00m
+[38;5;032m~/DevOpsWithDocker2022 [38;5;105m»[00m [K[109C [38;5;237mkolya_ya@Mac-mini-Ya[00m[130D[?1h=[?2004hscript ex1-6[12Ddocker run -it devopsdockeruh/pull_exercise[43Dscript ex1-6                               [31D[12Ddocker run -it devopsdockeruh/pull_exercise[?1l>[?2004l
+]2;docker run -it devopsdockeruh/pull_exercise]1;docker[1G[0JGive me the password: [23Gbasics
+You found the correct password. Secret message is:
+"This is the secret message"
+
+[1m[7m%[27m[1m[0m                                                                                                                                                            ]2;kolya_ya@Mac-mini-Ya:~/DevOpsWithDocker2022]1;..ithDocker2022[0m[27m[24m[J[38;5;237m------------------------------------------------------------------------------------------------------------------------------------------------------------[00m
+[38;5;032m~/DevOpsWithDocker2022 [38;5;105m»[00m [K[109C [38;5;237mkolya_ya@Mac-mini-Ya[00m[130D[?1h=[?2004h[?2004l
+
+Script done on Tue May 10 17:06:48 2022

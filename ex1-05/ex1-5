@@ -1,0 +1,10 @@
+Script started on Tue May 10 16:47:15 2022
+[1m[7m%[27m[1m[0m                                                                                                                                                            ]2;kolya_ya@Mac-mini-Ya:~]1;~[0m[27m[24m[J[38;5;237m------------------------------------------------------------------------------------------------------------------------------------------------------------[00m
+[38;5;032m~ [38;5;105m»[00m [K[130C [38;5;237mkolya_ya@Mac-mini-Ya[00m[151D[?1h=[?2004hscriptdocker images[?1l>[?2004l
+]2;docker images]1;dockerREPOSITORY                          TAG       IMAGE ID       CREATED         SIZE
+devopsdockeruh/simple-web-service   ubuntu    4e3362e907d5   14 months ago   83MB
+devopsdockeruh/simple-web-service   alpine    fd312adc88e0   14 months ago   15.7MB
+[1m[7m%[27m[1m[0m                                                                                                                                                            ]2;kolya_ya@Mac-mini-Ya:~]1;~[0m[27m[24m[J[38;5;237m------------------------------------------------------------------------------------------------------------------------------------------------------------[00m
+[38;5;032m~ [38;5;105m»[00m [K[130C [38;5;237mkolya_ya@Mac-mini-Ya[00m[151D[?1h=[?2004h[?2004l
+
+Script done on Tue May 10 16:47:24 2022
