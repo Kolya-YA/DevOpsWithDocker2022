@@ -2,7 +2,8 @@
 
 The solution in the __docer-compose.yml__
 
-```version: "3.9"
+```yml
+version: "3.9"
 
 services:
     sws-server:
