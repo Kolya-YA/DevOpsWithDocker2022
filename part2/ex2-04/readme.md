@@ -2,7 +2,7 @@
 
 ## Add redis to example backend
 
-The solution in the __docer-compose.yml__
+The solution in the __docker-compose.yml__
 
 ```yml
 version: "3.9"
