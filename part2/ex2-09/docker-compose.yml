@@ -1,0 +1,41 @@
+version: "3.9"
+
+services:
+  myredis:
+    image: redis
+    restart: unless-stopped
+
+  db:
+    image: postgres:13-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_PASSWORD: testpsw
+    container_name: testdb
+    volumes:
+      - ./database:/var/lib/postgresql/data
+
+  backend:
+    build: ../../part1/ex1-13
+    environment:
+      - REQUEST_ORIGIN=http://frontend:5000
+      - REDIS_HOST=myredis
+      - POSTGRES_HOST=db
+      - POSTGRES_PASSWORD=testpsw
+    depends_on:
+      - db
+
+  frontend:
+    build: ../../part1/ex1-12
+    environment:
+      - REACT_APP_BACKEND_URL=http://backend:8080
+
+  nginx:
+    image: nginx:1.19-alpine
+    restart: unless-stopped
+    ports:
+      - 80:80
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    depends_on:
+      - frontend
+      - backend
